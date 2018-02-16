@@ -1,8 +1,8 @@
 // Replace this with your base domain 
-var BASE_URL = 'https://MY_INSTANCE.looker.com:19999/api/3.0';
+var BASE_URL = 'https://client.looker.com:19999/api/3.0';
 // Replace this with your API credentials
-var CLIENT_ID = 'MY CLIENT ID'; 
-var CLIENT_SECRET = 'MY CLIENT SECRET'; 
+var CLIENT_ID = ''; 
+var CLIENT_SECRET = ''; 
 
 
 function login() {

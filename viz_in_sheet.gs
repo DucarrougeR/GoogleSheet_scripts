@@ -1,5 +1,5 @@
 // Replace this with your base domain 
-var BASE_URL = 'https://client.looker.com:19999/api/3.0';
+var BASE_URL = 'https://COMPANY.com:19999/api/3.0';
 // Replace this with your API credentials
 var CLIENT_ID = ''; 
 var CLIENT_SECRET = ''; 
@@ -14,7 +14,7 @@ function login() {
     return JSON.parse(response.getContentText()).access_token;
   } catch(err) {
     Logger.log(err);
-    return "Could not login to Looker. Check your credentials.";
+    return "Could not login to Instance. Check your credentials.";
   }
 }
 
